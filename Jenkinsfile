@@ -13,7 +13,7 @@ pipeline {
         // This can be http or https
         NEXUS_PROTOCOL = "http"
         // Where your Nexus is running
-        NEXUS_URL = "18.216.151.197:8081/"
+        NEXUS_URL = "34.238.83.166:8081/"
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "soanrqube"
         // Jenkins credential id to authenticate to Nexus OSS
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/betawins/sabear_simplecutomerapp.git';
+                    git 'https://github.com/Rakeshpagidimarri/sabear_simplecutomerapp.git';
                 }
             }
         }
